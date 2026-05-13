@@ -1,0 +1,35 @@
+# Archivo de configuración del mod (mods.toml)
+# Editado para TotemAnnouncer (Forge 1.20.1)
+
+modLoader="javafml"
+loaderVersion="[47,)" # Versión requerida de Forge para Minecraft 1.20.1
+license="CC0" # Usamos CC0 ya que el mod original era de dominio público (o pon "All Rights Reserved")
+
+[[mods]]
+# El ID debe ser idéntico al que pusimos en el código Java (en minúsculas)
+modId="totemannouncer"
+version="1.0.0"
+displayName="Totem Announcer"
+authors="Tontoque28" # ¡Aquí estás tú como autor del port!
+description='''
+Un mod simple que envía un mensaje global al chat cuando un jugador activa un Tótem de la Inmortalidad.
+Portado de Fabric a Forge para la versión 1.20.1.
+'''
+
+# Dependencias (Reglas para que el mod se cargue)
+
+# 1. Dependencia de Forge
+[[dependencies.totemannouncer]]
+modId="forge"
+mandatory=true
+versionRange="[47,)" # Requiere Forge versión 47 o superior
+ordering="NONE"
+side="BOTH"
+
+# 2. Dependencia de Minecraft
+[[dependencies.totemannouncer]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)" # Solo para la 1.20.1 (y versiones menores compatibles)
+ordering="NONE"
+side="BOTH"
