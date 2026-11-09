@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[0,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="totemannouncer"
+version="1.0.1"
+displayName="Totem Announcer"
+authors="Tontoque28"
+description='''Announces in global chat when a player consumes a Totem of Undying.'''
+
+[[dependencies.totemannouncer]]
+    modId="forge"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.totemannouncer]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.1,1.22)"
+    ordering="NONE"
+    side="BOTH"
