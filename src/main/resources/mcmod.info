@@ -1,0 +1,11 @@
+[
+  {
+    "modid": "totemannouncer",
+    "name": "Totem Announcer",
+    "description": "Announces in global chat when a player consumes a Totem of Undying.",
+    "version": "1.0.1",
+    "mcversion": "1.12.2",
+    "authorList": ["Tontoque28"],
+    "credits": "Copyright (c) Tontoque28. All Rights Reserved."
+  }
+]
