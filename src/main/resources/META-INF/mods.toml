@@ -1,0 +1,36 @@
+# See https://docs.minecraftforge.net/en/1.21.x/gettingstarted/modfiles/#modstoml
+# There are lots of things you can do with the mods.toml, and not all fields are included with this MDK
+# References: https://github.com/MinecraftForge/MDKExamples
+
+modLoader="javafml"
+loaderVersion="[66,)"
+license="All Rights Reserved"
+#issueTrackerURL="https://github.com/MyOrganization/MyMod/" #optional
+#clientSideOnly=true #optional, default=false
+
+[[mods]]
+modId="totemannouncer"
+version="1.0.1"
+displayName="Totem Announcer"
+#updateJSONURL="https://example.com/updates.json" #optional
+#displayURL="https://example.com/" #optional
+#logoFile="totemannouncer.png" #optional
+#credits="" #optional
+authors="Tontoque28" #optional
+#displayTest="MATCH_VERSION" #optional, default=MATCH_VERSION when not clientSideOnly, else IGNORE_ALL_VERSION
+
+description='''Announces in global chat when a player consumes a Totem of Undying.'''
+
+[[dependencies.totemannouncer]] #recommended
+    modId="forge"
+    mandatory=true
+    versionRange="[66,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.totemannouncer]] #recommended
+    modId="minecraft"
+    mandatory=true
+    versionRange="[26.3,26.4)"
+    ordering="NONE"
+    side="BOTH"
