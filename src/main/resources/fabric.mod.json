@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "totemannouncer",
+  "version": "${version}",
+  "name": "Totem Announcer",
+  "description": "Announces in global chat when a player consumes a Totem of Undying.",
+  "authors": ["Tontoque28"],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tontoque28.totemannouncer.TotemAnnouncer"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
